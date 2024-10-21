@@ -8,7 +8,7 @@
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "webpack": "^2.0"
+    "webpack": "^5.95"
   },
   "devDependencies": {
     "babel-core": "^6.0",
