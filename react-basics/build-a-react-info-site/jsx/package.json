@@ -1,0 +1,11 @@
+{
+  "name": "Scrim-s0luk5nfd4",
+  "description": "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0qa",
+  "scripts": {
+    "start": "vite preview -- --outDir ."
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
