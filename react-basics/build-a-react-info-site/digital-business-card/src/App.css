@@ -1,0 +1,100 @@
+.container {
+  background-color: #1a1b21;
+  width: 317px;
+  height: 780px;
+  margin: 20px auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Info */
+main {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.img {
+  width: 317px;
+  height: 317px;
+  top: 44px;
+  left: 116px;
+  gap: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+main h1 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  margin: 0;
+}
+
+main h2 {
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 15.49px;
+  color: #f3bf99;
+  margin: 0;
+}
+
+main p {
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+}
+
+main button {
+  width: 115px;
+  height: 34px;
+  padding: 9px 13px;
+  border-radius: 6px;
+  border: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  font-family: "Inter", sans-serif;
+  margin: 0 10px 0 10px;
+  background-color: #D1D5DB;
+}
+
+.linkedin {
+  color: #ffffff;
+  background-color: #5093e2;
+}
+
+/* About, Interests */
+.content {
+  padding: 5px 35px;
+}
+
+.content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+}
+
+.content p {
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+}
+
+/* Footer */
+.footer {
+  background-color: #161619;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 317px;
+  height: 64px;
+  top: 760px;
+  border-radius: 0px 0px 10px 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 30px;
+}
+
+.footer img {
+  width: 25px;
+  height: 25px;
+}
