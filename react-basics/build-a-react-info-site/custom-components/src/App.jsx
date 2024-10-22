@@ -1,12 +1,8 @@
-import reactLogo from "./assets/react-logo.png"
+import Header from "./Header"
 function App() {
   return (
     <>
-      <header>
-        <nav>
-          <img src={reactLogo} width="40px" />
-        </nav>
-      </header>
+      <Header />
       <h1>Reasons I&apos;m excited to learn React</h1>
       <ol>
         <li>It&apos;s a popular library, so I&apos;ll be able to fit in with the cool kids!</li>
