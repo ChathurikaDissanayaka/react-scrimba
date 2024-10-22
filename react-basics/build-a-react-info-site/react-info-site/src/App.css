@@ -1,0 +1,47 @@
+/* Navbar */
+.navbar{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #21222A;
+}
+
+.brand{
+  display: flex;
+  display: flex;
+  align-items:center;
+  color: #61DAFB;
+  font-weight: 700;
+}
+
+.logo{
+  width: 40px;
+  padding-right: 10px;
+}
+
+/* Main */
+.container{
+  padding: 20px;
+  background-image: url(./assets/react-logo-half.png);
+  background-repeat: no-repeat;
+  background-position: right 25%;
+  background-size: 150px;
+  height: 85vh;
+}
+
+.header{
+  font-weight: 700;
+}
+
+.container li{
+  line-height: 19px;
+  padding-block: 10px;
+  font-weight: 400;
+  max-width: 400px;
+}
+
+li::marker{
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
