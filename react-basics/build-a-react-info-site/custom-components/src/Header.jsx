@@ -5,6 +5,11 @@ function Header(){
       <header>
           <nav>
             <img src={reactLogo} width="40px" />
+            <ul>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
           </nav>
         </header>
     )
