@@ -9,3 +9,56 @@
 .logo {
   max-width: 100px;
 }
+
+/* Hero */
+.hero{
+  font-family: Popins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.photo-grid{
+  width: 250px;
+  align-self: center;
+}
+
+.hero-title{
+  margin-bottom: 0;
+}
+
+.hero-paragraph{
+  width: 300px;
+  font-weight: 200;
+  font-size: 0.5rem;
+}
+
+@media screen and (min-width: 500px){
+  .photo-grid{
+    width: 400px;
+  }
+
+  .hero-title{
+    font-size: 2rem;
+  }
+
+  .hero-paragraph{
+    width: 300px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 750px){
+  .photo-grid{
+    width: 700px;
+  }
+
+  .hero-title{
+    font-size: 2.5rem;
+  }
+
+  .hero-paragraph{
+    width: 370px;
+    font-size: 1.2rem;
+  }
+}
