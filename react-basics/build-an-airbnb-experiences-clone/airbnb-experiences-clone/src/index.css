@@ -4,4 +4,14 @@
 
 body{
   margin: 0;
+  font-family: Popins, sans-serif;
+  background-color: aquamarine;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
 }
