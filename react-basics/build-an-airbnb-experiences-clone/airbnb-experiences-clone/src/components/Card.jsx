@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
+ 
 import star from '../assets/images/star.png'
 import '../index.css'
 
