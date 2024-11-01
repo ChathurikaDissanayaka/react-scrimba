@@ -1,0 +1,22 @@
+/* eslint-disable react/prop-types */
+import PhoneIcon from "../assets/phone-icon.png";
+import MailIcon from "../assets/mail-icon.png";
+
+const Contact = ({img, name, phone, email}) => {
+  return (
+    <div className="contact-card">
+      <img src={img} />
+      <h3>{name}</h3>
+      <div className="info-group">
+        <img src={PhoneIcon} />
+        <p>{phone}</p>
+      </div>
+      <div className="info-group">
+        <img src={MailIcon} />
+        <p>{email}</p>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
