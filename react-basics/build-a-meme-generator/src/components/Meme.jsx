@@ -1,6 +1,6 @@
 const Meme = () => {
   return (
-    <form action="">
+    <div className="form">
       <div className="inputs">
         <div className="input">
           <label htmlFor="top-text">Top text</label>
@@ -22,7 +22,7 @@ const Meme = () => {
         </div>
       </div>
       <button type="submit">Get a new meme image</button>
-    </form>
+    </div>
   );
 };
 
