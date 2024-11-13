@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0 30px;
-  background-color: violet;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   color: #ffffff;
 }
 
