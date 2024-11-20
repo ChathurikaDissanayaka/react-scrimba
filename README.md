@@ -1,3 +1,3 @@
 # React Scrimba
 
-[Cat cotacts]()
+[Cat contacts]()
