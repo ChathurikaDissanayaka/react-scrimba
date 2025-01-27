@@ -2,11 +2,13 @@ import img from "../assets/react.svg";
 
 const Nav = () => {
   return (
-    <nav className="nav">
+    <header>
+      <nav className="nav">
         <img src={img} />
         <span>React Facts</span>
-    </nav>
-  )
-}
+      </nav>
+    </header>
+  );
+};
 
-export default Nav
+export default Nav;
