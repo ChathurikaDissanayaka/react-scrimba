@@ -18,3 +18,11 @@ header {
   justify-content: center;
   gap: 0.8em;
 }
+
+h1 {
+  font-weight: 500;
+}
+
+.logo {
+  height: 2.5rem;
+}
