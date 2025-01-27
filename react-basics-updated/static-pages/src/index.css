@@ -26,7 +26,12 @@ h1 {
 
 main {
   padding: 0 1.5em;
+  background-image: url("./assets/react-logo-half.png");
+  background-repeat: no-repeat;
+  background-position: right 70%;
+  background-size: 120px;
 }
+
 
 ul {
   line-height: 2em;
