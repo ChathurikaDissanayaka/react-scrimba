@@ -42,7 +42,7 @@ const App = () => {
             <input
               type="radio"
               name="employmentStatus"
-              defaultChecked
+              defaultChecked={true}
               value="full-time"
             />
             Full-time
